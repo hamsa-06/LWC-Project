@@ -1,0 +1,24 @@
+<template>
+    <div class="bmi-container">
+        <div class="bmi-card">
+        <lightning-card  title="BMI CALCULATOR">
+            <div class="check">
+            <lightning-input type="text" value={height} label={HeightLabel} onchange={handleHeightChange} ></lightning-input>
+            <lightning-input type="text" value={weight} label={WeightLabel} onchange={handleWeightChange}></lightning-input>
+            <lightning-button label="CALCULATE" onclick={handlebmi}></lightning-button>
+            
+            <h1 class="slds-text-heading_small">What your BMI means</h1>
+            <p class="slds-p-horizontal_small"> Once you have message your BMI,you can determine your health weight range.If you </p>
+            <h1 class="slds-text-heading_small">Under 18.5</h1>
+            <p class="slds-p-horizontal_small">You are underweight and maintain the weight</p>
+            <h1 class="slds-text-heading_small">Between 18.5 and 24.9</h1>
+            <p class="slds-p-horizontal_small">You are underweight and maintain the weight</p>
+            <h1 class="slds-text-heading_small">25 to 29.9</h1>
+            <p class="slds-p-horizontal_small">You are overweight</p>
+            <h1 class="slds-text-heading_small">Over 30</h1>
+            <p class="slds-p-horizontal_small">You are Obese</p>
+            </div>
+        </lightning-card>
+        </div>
+        </div>
+</template>

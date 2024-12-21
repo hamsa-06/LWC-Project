@@ -1,0 +1,39 @@
+:host {
+    display: block;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .bmi-container {
+    background-image: url('https://via.placeholder.com/1920x1080'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .bmi-card {
+    background: #000; /* Full black background */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: 400px;
+  }
+  
+  .lightning-input {
+    margin-bottom: 10px;
+  }
+  
+  .lightning-input input {
+    color: #000; /* Black text inside input fields */
+    background: #fff; /* White background for input fields */
+  }
+  
+  .lightning-button {
+    margin-top: 15px;
+  }
+  
+ 
+  
